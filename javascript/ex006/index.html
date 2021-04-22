@@ -18,7 +18,7 @@
   </style>
 </head>
 <body>
-  <div id="area" onclick="clicar()">
+  <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
     Interaja...
   </div>
 
@@ -26,6 +26,14 @@
     function clicar() {
       let a = document.getElementById('area')
       a.innerText = 'Clicou!'
+    }
+    function entrar() {
+      let a = document.getElementById('area')
+      a.innerText = 'Entrou!'
+    }
+    function sair() {
+      let a = document.getElementById('area')
+      a.innerText = 'Saiu!'
     }
   </script>
 </body>
