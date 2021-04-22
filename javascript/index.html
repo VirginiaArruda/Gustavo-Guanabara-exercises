@@ -19,8 +19,10 @@
   <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
   <div>Clique em mim</div>
   <script>
+    let corpo = document.body
     let p1 = document.getElementsByTagName('p')[0]
-    document.write(p1.innerText)
+    corpo.style.background = 'black'
+    p1.style.color = 'blue'
   </script>
 </body>
 </html>
