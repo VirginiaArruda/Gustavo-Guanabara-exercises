@@ -42,7 +42,7 @@ function verificar() {
           img.setAttribute('src', 'imagens/idosa.jpg')
         }
     }
-    foto.style.borderRadius = "100%";
+    
     res.style.textAlign = 'center'
     res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
     res.appendChild(img)
